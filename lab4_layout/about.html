@@ -1,0 +1,50 @@
+<div class="dropdown">
+    <button class="mainmenubtn">Tugas Html</button>
+    <div class="dropdown-child">
+        <a href="file://D:/Lab3Web/Lab2_css_dasar.html">style</a>
+        <a href="file://D:/Lab3Web/lab3_form.html">Pendaftaran Mahasiswa</a>
+        <a href="file://D:/Lab3Web/lab3_list.html">List Jurusan</a>
+        <a href="file://D:/Lab3Web/lab3_tabel.html">Tabel Jurusan</a>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="mainmenubtn">Jurusan</button>
+    <div class="dropdown-child">
+        <a href=>Teknik Informatika</a>
+        <a href=>Teknik Industri</a>
+        <a href=>Teknik Lingkungan</a>
+        <a href=>Teknik Otomotif</a>
+    </div>
+</div>
+<style>
+.mainmenubtn {
+    background-color: rgb(80, 30, 30);
+    columns: red;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(2, 1, 1);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: block;
+    background-color: rgb(4, 2, 8);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
