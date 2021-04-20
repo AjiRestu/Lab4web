@@ -108,12 +108,12 @@ Pertanyaan dan Tugas
 2. Tambahkan layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
 
-1. Output
+ Menu About
 ![](Photo/31.PNG)
 Input
 ![](Photo/29.PNG)
 
-2.Output
+Menu Contact
 ![](Photo/32.PNG)
 Input
 ![](Photo/30.PNG)
